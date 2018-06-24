@@ -1,0 +1,136 @@
+.footer{
+    background-image: url("../../dist/Pic/Frame.png");
+    background-size: cover;
+    .rowPadTop{
+        padding-top: 35px;
+    }
+    .rowPadBottom{
+        margin-top: 75px;
+        padding-bottom: 25px;
+    }
+    .colIcon{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .textCol{
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;  
+        h5{
+            color: white;
+            padding-bottom: 120px;
+        }
+        .alignCol{
+            padding-left: 100px;
+        }
+        div p:first-child{
+            color: white;
+        }
+        p{
+            margin-bottom: 0;
+            text-transform: uppercase;
+        }
+        a{
+            text-decoration: none;
+            color: #E2DB1A;
+        }
+        .firstContact{
+            margin-bottom: 15px;
+        }
+    }
+    .col-6{
+        .alignPar{
+            color: white;
+            font-size: 11px;
+            float: left;
+        }
+        .alignDiv{
+            float: right;
+        }
+        .width{
+            width: 60px;       
+            display: flex;
+            justify-content: center;
+            .spans{
+                color: white; 
+                font-size: 11px;
+                text-transform: uppercase;
+            } 
+        } 
+        .logo{
+            width: 60px;
+            height: 60px;
+        }
+        .dif{
+            height: 60px;
+            align-items: center;
+            display: flex;
+            .icon{
+                width: 22px;
+                height: 16px;
+            }
+        }
+    }
+    .col-md-6{
+        .formCol{
+            display: flex;
+            align-items: center;
+            .alignPar{
+                align-self: flex-end;
+                padding-bottom: 40px;
+                color: white;
+                position: absolute;
+                margin-bottom: 0;
+                font-size: 12px;
+            }
+            form{
+                width: 70%;
+                #resultSubject,#resultName,#resultEmail,#resultMsg{
+                    color: #E2DB1A;
+                    position: absolute;
+                }
+            }
+            .col-md-12{
+                input{
+                    background-color: transparent;
+                    border: none;
+                    border-bottom:  2px solid white;
+                    width: 100%;
+                    padding-bottom: 6px;
+                    margin-top: 20px;
+                    outline: none;
+                    color: white;                    
+                }
+                .message{
+                    padding-bottom: 120px;
+                }
+                ::placeholder{
+                    color:rgba(255,255,255,0.8) ;
+                    padding-left: 10px; 
+                }
+            }
+            button{
+                background-color: transparent;
+                padding: 5px 35px;
+                border: 1px solid rgba(255,255,255,0.7);
+                color:rgba(255,255,255,0.8);
+                text-transform: uppercase;
+                float: right;
+                margin-top: 15px;
+                i{
+                    padding-left: 5px;
+                    color: #E2DB1A;
+                }
+            } 
+            button:hover{
+                background-color: #E2DB1A;
+                color:rgba(255,255,255,1);
+                transition: all 0.5s ease-in-out;
+                i{
+                    color: white;
+                    transition: all 0.5s ease-in-out;
+                }
+            }  
+        }
+    }
+}

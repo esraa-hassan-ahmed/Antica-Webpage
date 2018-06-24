@@ -1,0 +1,178 @@
+.content{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../dist/Pic/section.png");
+    background-size: cover;
+    .links{
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .col-3, .col-6{
+        margin-top: 25px;
+    }
+    .col-6,.col-3{ 
+        .width{
+            width: 60px;
+            height: 92%;           
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            .logo{
+                width: 60px;
+                height: 60px;
+            }
+            .spans{
+                align-self: flex-end;
+                color: white; 
+                position: absolute;
+                font-size: 11px;
+                text-transform: uppercase;
+            }  
+        } 
+        .dif{
+            height: 60px;
+            align-items: center;
+            display: flex;
+            .icon{
+                width: 22px;
+                height: 16px;
+            }
+        }
+        .carousel{
+            .carousel-indicators li{
+                width: 7px;
+                height: 7px;
+                border-radius: 50%;
+                margin-right: 15px;
+            }
+        } 
+    }
+    .align{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .container{
+        .col-6{
+            .row{
+                width: 100%;
+            }
+        }
+        .center-col{
+            height: 100%;
+            display: flex;
+        }
+        .col-6,.col-3{ 
+            .col-left{
+                max-width: 37%;
+                text-align: right;
+                padding-right: 0;
+            }
+            .col-right{
+               padding-left: 40px;
+            }
+            p{
+                color: white;
+                margin: 0;
+                text-transform: uppercase;
+                font-size: 11px;
+            }
+            .verticalPar{
+                transform: rotate(-90deg);
+                align-self: center;                    
+                position: absolute;
+            }          
+            .carousel{
+                position: absolute;
+                align-self: center;
+                width: 108%;
+                height: 140px;
+                h5{
+                    color: white;
+                    font-size: 25px;
+                    width: 58%;
+                    padding-bottom: 15px;
+                }
+                .carousel-indicators{
+                    margin: 0;
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-left: 16%;
+                    top: 210%;
+                }
+                .carousel-control-next-icon{
+                    background-image: url(../../dist/Pic/mouse.png);
+                    width: 14px;
+                }
+                .carousel-control-next{
+                    opacity: 1;
+                    top: 210%;
+                    left:40%;
+                    display: inline-flex;
+                }
+                .carousel-control-prev{
+                    display: none;
+                }
+            }
+            .col-6{
+                a{
+                    font-size: 14px;
+                    color: white;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    padding-right: 30px;
+                }
+
+            }
+        }
+        
+    }
+}
+/*****************************  XSmall Size     ***************************/
+@media all and (max-width:1024px){
+    .content{
+        .container{
+            .col-6,.col-3{ 
+                .col-6{
+                    a{
+                        display: none;
+                    }
+    
+                }
+            }
+        }
+    } 
+}
+@media all and (max-width:768px){
+    .content{
+        .container{
+            .col-6,.col-3{ 
+                .carousel{
+                    h5{
+                        font-size: 18px;
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    } 
+}
+@media all and (max-width:552px){
+    .content{
+        .container{
+            .col-6,.col-3{ 
+                .carousel{
+                    .carousel-control-next{
+                        display: none;
+                    }
+                }
+                p{
+                    margin-bottom: 10px;
+                }
+               
+            }
+        }
+    } 
+}
+   

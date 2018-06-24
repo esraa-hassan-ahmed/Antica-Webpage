@@ -1,0 +1,95 @@
+.section1{
+    background-image: url("../../dist/Pic/section1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    .rowPadTop{
+        padding-top: 35px;
+    }
+    .rowPadBottom{
+        margin-top: 80px;
+        padding-bottom: 50px;
+    }
+    .colIcon{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .col-6{
+        .width{
+            width: 60px;       
+            display: flex;
+            justify-content: center;
+            .spans{
+                color: black; 
+                font-size: 11px;
+                text-transform: uppercase;
+            } 
+        } 
+        .logo{
+            width: 60px;
+            height: 60px;
+        }
+        .dif{
+            height: 60px;
+            align-items: center;
+            display: flex;
+            .icon{
+                width: 22px;
+                height: 16px;
+            }
+        }
+    }
+    .col-md-10{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        .carousel{
+            p{
+                width: 46%;
+                font-size: 14px;
+                position: relative;
+            }
+            .carousel-indicators .active{
+                background-color: #E2DB1A;
+            } 
+            .carousel-indicators li{
+                background-color: rgb(173, 173, 173);
+                
+            }
+            .carousel-indicators{
+                margin: 0;
+                display: flex;
+                justify-content: flex-end;
+                margin-right: 22%;
+                bottom: -80px;
+                right: 167px;
+                position: absolute;
+            }   
+        } 
+    }
+}
+@media all and (max-width:1024px){
+    .section1{
+        .col-md-10{
+            .carousel{
+                h5{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 10px;
+                }
+         
+            } 
+        }
+    }
+}
+@media all and (max-width:552px){
+    .section1{
+        .col-md-10{
+            .carousel{
+                p{
+                    font-size: 8px;
+                }
+            } 
+        }
+    }
+}
