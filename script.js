@@ -17,12 +17,15 @@ function emailFn() {
          console.log(emailText);
          symbole = emailText.indexOf("@");
          dot = emailText.lastIndexOf(".");
+         console.log( dot - symbole);
          if (symbole == -1 || ( dot - symbole < 2 )) 
          {
             document.getElementById("resultEmail").innerHTML = "Enter correct Email";
+            return false;
          }
          else{
             document.getElementById("resultEmail").innerHTML = "";
+            return true;
          }
     }
 } 
@@ -45,3 +48,14 @@ function msgFn(){
         document.getElementById("resultMsg").innerHTML = "";
     }
 }
+
+$( "input" ).keydown(function() {
+    $(this).next().html("")
+});
+
+
+
+
+
+
+

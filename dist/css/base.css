@@ -6358,11 +6358,6 @@ section hr, footer hr {
     .content .col-6 .dif .icon, .content .col-3 .dif .icon {
       width: 22px;
       height: 16px; }
-  .content .col-6 .carousel .carousel-indicators li, .content .col-3 .carousel .carousel-indicators li {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    margin-right: 15px; }
   .content .align {
     display: flex;
     justify-content: flex-end; }
@@ -6467,8 +6462,8 @@ section hr, footer hr {
       width: 22px;
       height: 16px; }
   .section1 .col-md-10 {
-    padding-top: 70px;
-    padding-bottom: 70px; }
+    padding-top: 45px;
+    padding-bottom: 45px; }
     .section1 .col-md-10 .carousel p {
       width: 46%;
       font-size: 14px;
@@ -6503,7 +6498,7 @@ section hr, footer hr {
   .section2 .rowPadTop {
     padding-top: 35px; }
   .section2 .rowPadBottom {
-    margin-top: 80px;
+    margin-top: 30px;
     padding-bottom: 50px; }
   .section2 .colIcon {
     display: flex;
@@ -6602,7 +6597,8 @@ section hr, footer hr {
   background-image: url("../../dist/Pic/Frame2.png");
   background-size: contain;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding-left: 0; }
 
 .section3 .rowPadTop {
   padding-top: 35px; }
@@ -6760,13 +6756,6 @@ section hr, footer hr {
   .footer .col-md-6 .formCol {
     display: flex;
     align-items: center; }
-    .footer .col-md-6 .formCol .alignPar {
-      align-self: flex-end;
-      padding-bottom: 40px;
-      color: white;
-      position: absolute;
-      margin-bottom: 0;
-      font-size: 12px; }
     .footer .col-md-6 .formCol form {
       width: 70%; }
       .footer .col-md-6 .formCol form #resultSubject, .footer .col-md-6 .formCol form #resultName, .footer .col-md-6 .formCol form #resultEmail, .footer .col-md-6 .formCol form #resultMsg {

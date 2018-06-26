@@ -75,14 +75,6 @@
         .formCol{
             display: flex;
             align-items: center;
-            .alignPar{
-                align-self: flex-end;
-                padding-bottom: 40px;
-                color: white;
-                position: absolute;
-                margin-bottom: 0;
-                font-size: 12px;
-            }
             form{
                 width: 70%;
                 #resultSubject,#resultName,#resultEmail,#resultMsg{
